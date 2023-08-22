@@ -1,5 +1,6 @@
 provider "azurerm" {
   features {}
+  region = "Brazil South"
 }
 
 resource "azurerm_resource_group" "example" {
