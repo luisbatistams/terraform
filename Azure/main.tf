@@ -1,5 +1,6 @@
 provider "azurerm" {
   features {}
+  cloud_zone = "Brazil South"
 }
 
 resource "azurerm_resource_group" "example" {
